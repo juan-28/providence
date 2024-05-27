@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pranav Data</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RNAseq Data Analysis of Pancreatic Cancer Patients</title>
+    <style>
+        body {
+            font-family: MesloLGS NF, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            margin: 20px 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        ul li {
+            background: #e4e4e4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to Pranav Data</h1>
-  <p>This is a simple website hosted on GitHub Pages.</p>
+    <div class="container">
+        <h1>RNAseq Data Analysis of Pancreatic Cancer Patients</h1>
+
+        <h2>Project Overview</h2>
+        <p>This project aims to analyze RNAseq data from pancreatic cancer patients to identify genetic markers linked to immune response. The analysis involves multiple stages, including data quality assessment, feature engineering, and the development of machine learning models to identify key genes and patterns.</p>
+
+        <h2>Key Accomplishments</h2>
+        <ul>
+            <li><strong>Genetic Marker Identification:</strong>
+                <ul>
+                    <li>Analyzed RNAseq data from pancreatic cancer patients.</li>
+                    <li>Identified genetic markers linked to immune response using feature selection with Random Forest and regression models.</li>
+                </ul>
+            </li>
+            <li><strong>Data Quality and Feature Engineering:</strong>
+                <ul>
+                    <li>Conducted data quality assessment and feature engineering within a Python-based OOP framework.</li>
+                    <li>Applied transformation techniques and variability filtering to mitigate noise and batch effects, enhancing the reliability of downstream analysis.</li>
+                </ul>
+            </li>
+            <li><strong>Data Visualization:</strong>
+                <ul>
+                    <li>Developed visualizations using Matplotlib and Seaborn to illustrate gene expression patterns and their associations.</li>
+                    <li>These visualizations facilitated a clearer understanding of complex genetic data.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Current Status</h2>
+        <p>The project serves as a foundational effort to identify genetic markers responsible for tumor invasion. Initially modeled with 48 samples, the analysis has been expanded to include over 500 samples from The Cancer Genome Atlas (TCGA). Additional cross-validation methods are being implemented to ensure robust findings.</p>
+
+        <h2>Ongoing Work</h2>
+        <p>Continued development and refinement of machine learning models to improve prediction accuracy and uncover significant patterns in the data. The attached Jupyter Notebook file (<code>.ipynb</code>) provides an in-depth look at the methods and preliminary results. Please note that this is a work in progress, and further enhancements are underway.</p>
+
+        <h2>How to Use This Repository</h2>
+        <ol>
+            <li><strong>Setup:</strong>
+                <p>Ensure you have the necessary Python libraries installed. You can find the required packages in the <code>requirements.txt</code> file.</p>
+            </li>
+            <li><strong>Running the Analysis:</strong>
+                <p>Open the Jupyter Notebook (<code>.ipynb</code>) to explore the data analysis workflow. Follow the steps outlined in the notebook to understand the data preprocessing, feature selection, and visualization techniques applied.</p>
+            </li>
+        </ol>
+    </div>
 </body>
 </html>

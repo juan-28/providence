@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MesloLGLDZNerdFontMono';
+    src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MesloLGLDZNerdFontMono';
+    src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mes’loLGLDZNerdFontMono';
+    src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MesloLGLDZNerdFontMono';
+    src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Bold Italic.ttf') format('truetype'); // If you have a bold-italic version
+    font-weight: bold;
+    font-style: italic;
+}
+
