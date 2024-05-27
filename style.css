@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'MesloLGLDZNerdFontMono';
     src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Bold.ttf') format('truetype');
@@ -20,8 +21,7 @@
 
 @font-face {
     font-family: 'MesloLGLDZNerdFontMono';
-    src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Bold Italic.ttf') format('truetype'); // If you have a bold-italic version
+    src: url('/Users/pranavsukumaran/Desktop/Personal_dev/providence_webstie/providence/fonts/MesloLGS NF Bold Italic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
-
